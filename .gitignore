@@ -1,0 +1,21 @@
+# Large media files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.wmv
+
+# Data files
+*.parquet
+*.csv
+*.json
+
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
