@@ -53,7 +53,7 @@ with st.expander("Glossary: Column Definitions"):
 st.title("🏆 World Cup Dashboard")
 
 # Show last updated timestamp
-parquet_path = "datalake/combined/final_matches.parquet"
+parquet_path = "streamlit_app/datalake/combined/final_matches.parquet"
 last_updated = datetime.fromtimestamp(os.path.getmtime(parquet_path)).strftime("%Y-%m-%d %H:%M:%S")
 st.caption(f"Last updated: {last_updated}")
 
