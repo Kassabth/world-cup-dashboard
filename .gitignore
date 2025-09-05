@@ -5,7 +5,7 @@
 *.mkv
 *.wmv
 
-# Data files
+# Data files (except essential ones)
 *.parquet
 *.csv
 *.json
@@ -19,3 +19,4 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+# Allow essential data files for Streamlit app
